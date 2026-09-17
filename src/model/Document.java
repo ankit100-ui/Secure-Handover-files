@@ -1,0 +1,1 @@
+package model; public record Document(int id,int ownerId,String originalName,String storedName,long sizeBytes,String uploadedAt) {}

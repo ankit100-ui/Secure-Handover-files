@@ -1,0 +1,1 @@
+package model; public record Transfer(int id,int documentId,String documentName,String senderName,String receiverName,String status,String createdAt,String receivedAt) {}
